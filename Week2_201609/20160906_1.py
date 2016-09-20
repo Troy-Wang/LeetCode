@@ -20,4 +20,4 @@ class Solution(object):
 
 
 solution = Solution()
-print solution.titleToNumber('Z')
+print(solution.titleToNumber('Z'))

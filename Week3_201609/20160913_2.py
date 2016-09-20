@@ -23,4 +23,4 @@ class Solution(object):
 
 
 solution = Solution()
-print solution.removeElement([3, 2, 2, 3, 1, 2], 3)
+print(solution.removeElement([3, 2, 2, 3, 1, 2], 3))

@@ -19,4 +19,4 @@ class Solution(object):
 
 
 solution = Solution()
-print solution.firstUniqChar('cc')
+print(solution.firstUniqChar('cc'))

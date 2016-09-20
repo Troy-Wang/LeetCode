@@ -25,4 +25,4 @@ class Solution(object):
 solution = Solution()
 nums1 = []
 nums2 = []
-print solution.intersection(nums1, nums2)
+print(solution.intersection(nums1, nums2))

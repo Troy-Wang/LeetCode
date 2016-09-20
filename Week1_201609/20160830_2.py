@@ -16,4 +16,4 @@ class Solution(object):
 
 
 solution = Solution()
-print solution.singleNumber([2])
+print(solution.singleNumber([2]))

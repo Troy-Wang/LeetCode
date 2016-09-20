@@ -21,4 +21,4 @@ class Solution(object):
         return False
 
 solution = Solution()
-print solution.containsDuplicate([6, 5])
+print(solution.containsDuplicate([6, 5]))

@@ -35,7 +35,7 @@ class Solution2(object):
 
 
 solution = Solution1()
-print solution.majorityElement([1, 2, 3, 3, 3])
+print(solution.majorityElement([1, 2, 3, 3, 3]))
 
 solution = Solution2()
-print solution.majorityElement([6, 5, 5])
+print(solution.majorityElement([6, 5, 5]))

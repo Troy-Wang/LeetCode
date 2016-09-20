@@ -42,4 +42,4 @@ class Solution(object):
 
 
 solution = Solution()
-print solution.reverseVowels2('')
+print(solution.reverseVowels2(''))

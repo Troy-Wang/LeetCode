@@ -14,4 +14,4 @@ class Solution(object):
 
 
 solution = Solution()
-print solution.isPowerOfFour(16)
+print(solution.isPowerOfFour(16))

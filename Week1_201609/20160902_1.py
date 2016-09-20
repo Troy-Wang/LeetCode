@@ -21,4 +21,4 @@ class Solution(object):
 solution = Solution()
 nums = [0, 1, 2, 0, 3, 0, 4, 5, 6, 0, 0, 0]
 solution.moveZeroes(nums)
-print nums
+print(nums)

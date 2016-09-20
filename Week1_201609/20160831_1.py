@@ -44,4 +44,4 @@ class Solution(object):
 
 solution = Solution()
 solution.myNum = 12
-print solution.guessNumber(14)
+print(solution.guessNumber(14))

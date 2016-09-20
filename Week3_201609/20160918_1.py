@@ -48,4 +48,4 @@ a = TreeNode(3)
 # a.right = c
 # c.left = d
 # c.right = e
-print solution.levelOrderBottom(a)
+print(solution.levelOrderBottom(a))

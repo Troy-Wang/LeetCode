@@ -26,10 +26,10 @@ class Solution(object):
         ret = [0]
         current = 1
         while current <= num:
-            ret.append(ret[current / 2] + current % 2)
+            ret.append(ret[int(current / 2)] + current % 2)
             current += 1
         return ret
 
 
 solution = Solution()
-print solution.countBits2(0)
+print(solution.countBits2(7))

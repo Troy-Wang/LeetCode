@@ -18,4 +18,4 @@ class Solution(object):
 
 
 solution = Solution()
-print solution.hammingWeight(11)
+print(solution.hammingWeight(11))

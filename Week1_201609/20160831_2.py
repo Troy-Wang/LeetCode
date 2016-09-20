@@ -24,4 +24,4 @@ class Solution(object):
 
 
 solution = Solution()
-print solution.canConstruct('abcde', 'ebcda')
+print(solution.canConstruct('abcde', 'ebcda'))

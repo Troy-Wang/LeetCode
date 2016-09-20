@@ -11,4 +11,4 @@ class Solution(object):
 
 
 solution = Solution()
-print solution.reverseString('abcd')
+print(solution.reverseString('abcd'))

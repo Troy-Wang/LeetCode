@@ -24,4 +24,4 @@ class Solution(object):
 
 
 solution = Solution()
-print solution.plusOne([9, 9, 9])
+print(solution.plusOne([9, 9, 9]))

@@ -40,4 +40,4 @@ c.next = b
 # d.next = e
 # e.next = b
 solution = Solution()
-print solution.hasCycle(a)
+print(solution.hasCycle(a))

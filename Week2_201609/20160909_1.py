@@ -18,7 +18,7 @@ class Solution(object):
         sqSum = n
         while sqSum != 1:
             sqSum = self.calcDigitSum(sqSum)
-            print sqSum
+            print(sqSum)
             if sqDict.has_key(sqSum):
                 return False
             else:
@@ -34,4 +34,4 @@ class Solution(object):
 
 
 solution = Solution()
-print solution.isHappy(111)
+print(solution.isHappy(111))

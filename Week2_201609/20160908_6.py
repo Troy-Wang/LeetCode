@@ -57,5 +57,5 @@ a5.next = a6
 solution = Solution()
 head = solution.mergeTwoLists(a1, a4)
 while head:
-    print head.val
+    print(head.val)
     head = head.next

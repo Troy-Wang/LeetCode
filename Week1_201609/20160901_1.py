@@ -17,4 +17,4 @@ class Solution(object):
 
 
 solution = Solution()
-print solution.addDigits(0)
+print(solution.addDigits(0))

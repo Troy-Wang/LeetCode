@@ -11,7 +11,3 @@ class Solution(object):
         """
 
         return n > 0 and 2 ** 31 % n == 0
-
-
-solution = Solution()
-print solution.isPowerOfTwo(1073741826)

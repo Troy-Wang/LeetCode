@@ -27,4 +27,4 @@ class Solution(object):
 
 
 solution = Solution()
-print solution.intersect([1, 2], [1])
+print(solution.intersect([1, 2], [1]))

@@ -33,4 +33,4 @@ class Solution(object):
 
 
 solution = Solution()
-print solution.isAnagram('a', 'a')
+print(solution.isAnagram('a', 'a'))

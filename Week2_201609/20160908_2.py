@@ -10,7 +10,3 @@ class Solution(object):
         :rtype: bool
         """
         return n > 0 and 3 ** 19 % n == 0
-
-
-solution = Solution()
-print solution.isPowerOfThree(243)
