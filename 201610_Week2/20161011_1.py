@@ -23,6 +23,23 @@ class Solution(object):
             current *= nums[i]
         return ret
 
+    def productExceptSelf2(self, nums):
+        totalProduct = 1
+        ret = []
+        for eachNum in nums:
+            totalProduct *= eachNum
+        for i in range(len(nums)):
+            ret.append(self.divide(totalProduct, nums[i]))
+        return ret
+
+    def divide(self, a, b):
+        count = 0
+        while a >= b:
+            a = a - b
+            count += 1
+        return count
+
 
 solution = Solution()
 print(solution.productExceptSelf([5, 2, 3, 4, 1, 7]))
+print(solution.productExceptSelf2([5, 2, 3, 4, 1, 7]))
